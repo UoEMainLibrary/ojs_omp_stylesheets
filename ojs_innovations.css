@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+/* Fix sticky out menu */
+.pkp_navigation_primary>li:first-child a {
+    margin-left: 0;
+}
+
+/* Fix sticky out logged in box */
+.pkp_navigation_user.pkp_navigation_user {
+    left: -10px;
+}
+
+/* Header Image Size */
+.pkp_page_index .pkp_site_name .is_img img {
+    max-height: 200px;
+}
+
+/* Header Image Size, Mobile Devices and Small Screens */
+@media only screen and (max-width: 768px) {
+
+    /* Adjusts for screens smaller than 768px, typical mobile breakpoint */
+    .pkp_site_name .is_img img {
+        max-height: 25px;
+        /* Smaller height for mobile devices */
+    }
+}
+
+
+
+/* Header Banner Colour */
+.pkp_site_name {
+    background: #ff509f;
+    /* red-pink for header */
+    color: #ffffff;
+    /* white text */
+}
+
+/* Wider Banner Colour */
+.pkp_structure_head {
+    background-color: #ff509f;
+    /* red-pink background for sections */
+}
+
+/* Primary Navigation Menu Bar Colour */
+.pkp_navigation_primary_wrapper {
+    background: #ff509f;
+    /* red-pink for navigation bar */
+}
+
+/* Primary Navigation Menu Bar Text And Background Colour */
+.pkp_nav_list a {
+    background-color: #ff509f !important;
+    /* red-pink background */
+    color: #ffffff !important;
+    /* white text for navigation links */
+}
+
+/* Search Button Text and Background Colour */
+.pkp_navigation_search_wrapper a {
+    background-color: #ff509f !important;
+    /* red-pink background */
+    color: #ffffff !important;
+    /* white text */
+}
+
+/* Make A Submission Sidebar Block Button Text and Background Colour */
+.block_make_submission_link {
+    background-color: #ff509f !important;
+    /* red-pink background */
+    color: #ffffff !important;
+    /* white text */
+}
+
+/* Galley Button Text and Background Colour */
+.obj_galley_link {
+    border: 2px solid #ff509f;
+    /* red-pink outline */
+    background: #ff509f;
+    /* red-pink background for buttons */
+    color: #ffffff !important;
+    /* white text */
+    border-radius: 6px;
+    /* Rounded corners for buttons */
+    padding: 2px 8px;
+    /* Padding for better button shape */
+    display: inline-block;
+    /* Inline-block for spacing */
+    text-align: center;
+    /* Center the text inside the button */
+    text-decoration: none;
+    /* Remove underline from link buttons */
+}
+
+/* Galley Button Hover Text and Background Colour */
+.obj_galley_link:hover, .obj_galley_link:focus {
+    color: #ffffff !important;
+    /* white text */
+    background: #ff509f !important;
+    /* red-pink background */
+    border-color: #ff509f;
+    /* red-pink border on hover */
+}
+
+/* Footer Background and Text Colour */
+.pkp_footer_content {
+    background: #ff509f;
+    /* red-pink footer */
+    color: #ffffff;
+    /* white text */
+}
+
+/* Wider Footer Background Colour */
+.pkp_structure_footer_wrapper {
+    background: #ff509f;
+    /* red-pink background */
+}
+
+/* Hyperlink Text Colour with Red Underline */
+a {
+    color: #fffff;
+    /* white text */
+    text-decoration: underline;
+    /* Underlined links */
+    text-decoration-color: #fffff;
+    /* white underline */
+}
+
+/* Hyperlink Hover Effect */
+a:hover {
+    color: #fffff;
+    /* white text on hover */
+    text-decoration-color: #fffff;
+    /* white underline on hover */
+}
+
+/* Footer Links for Better Legibility */
+.pkp_footer_content a {
+    color: #ffffff;
+    /* white text for links in the footer */
+    text-decoration: underline;
+    /* Underline for distinction */
+    text-decoration-color: #ffffff;
+    /* White underline */
+}
+
+.pkp_footer_content a:hover {
+    color: #ffffff;
+    /* white text on hover for footer links */
+    text-decoration-color: #ffffff;
+    /* white underline on hover */
+}

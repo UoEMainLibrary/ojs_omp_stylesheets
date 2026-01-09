@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+/* Fix sticky out menu */
+.pkp_navigation_primary>li:first-child a {
+    margin-left: 0;
+}
+
+/* Fix sticky out logged in box */
+.pkp_navigation_user.pkp_navigation_user {
+    left: -10px;
+}
+
+/* Header Image Size */
+.pkp_site_name .is_img img {
+    max-height: 200px;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 1200px) {
+    .pkp_site_name .is_img img {
+        max-height: 80px;
+        /* Slightly smaller on smaller desktops */
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .pkp_site_name .is_img img {
+        max-height: 25px;
+        /* Adjust for tablets and smaller desktops */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .pkp_site_name .is_img img {
+        max-height: 10px;
+        /* Smaller height for very small devices */
+    }
+}
+
+
+
+/* Header Banner Colour */
+.pkp_site_name {
+    background: #50717f;
+    /* teal */
+    color: #ffffff;
+    /* White text for contrast */
+}
+
+/* Wider Banner Colour */
+.pkp_structure_head {
+    background-color: #50717f;
+    /*  teal */
+}
+
+/* Primary Navigation Menu Bar Colour */
+.pkp_navigation_primary_wrapper {
+    background: #000000;
+    /* Black */
+}
+
+/* Primary Navigation Menu Bar Text And Background Colour */
+.pkp_nav_list a {
+    background-color: #000000 !important;
+    /* Black */
+    color: #ffffff !important;
+    /* White text for contrast */
+}
+
+/* Search Button Text and Background Colour */
+.pkp_navigation_search_wrapper a {
+    background-color: #000000 !important;
+    /* black */
+    color: #ffffff !important;
+    /* white */
+}
+
+/* Make A Submission Sidebar Block Button Text and Background Colour */
+.block_make_submission_link {
+    background-color: #50717f !important;
+    /* teal */
+    color: #ffffff !important;
+    /* white */
+}
+
+/* Galley Button Text and Background Colour */
+.obj_galley_link {
+    border: 2px solid #88afc6;
+    /* Soft blue border */
+    background: #50717f;
+    /* Deeper teal-blue */
+    color: #ffffff !important;
+    /* White text */
+    border-radius: 12px;
+    /* Rounded corners for buttons */
+    padding: 8px 16px;
+    /* Padding for better button shape */
+    display: inline-block;
+    /* Inline-block for spacing */
+    text-align: center;
+    /* Center the text inside the button */
+    text-decoration: none;
+    /* Remove underline from link buttons */
+}
+
+/* Galley Button Hover Text and Background Colour */
+.obj_galley_link:hover, .obj_galley_link:focus {
+    color: #50717f !important;
+    /* Deeper teal-blue text */
+    background: #ffffff !important;
+    /* White background */
+    border-color: #88afc6;
+    /* Soft blue border on hover */
+}
+
+/* Footer Background and Text Colour */
+.pkp_footer_content {
+    background: #000000;
+    /* Black */
+    color: #ffffff;
+    /* White text */
+}
+
+/* Wider Footer Background Colour */
+.pkp_structure_footer_wrapper {
+    background: #50717f;
+    /* teal */
+}
+
+/* Hyperlink Text Colour */
+a {
+    color: #50717f;
+    /* teal */
+    text-decoration: underline;
+    /* Underlined links */
+    text-decoration-color: #50717f;
+    /* teal underline */
+}
+
+/* Hyperlink Hover Effect */
+a:hover {
+    color: #50717f;
+    /* teal on hover */
+    text-decoration-color: #50717f;
+    /* teal underline on hover */
+}
+
+/* Footer Links */
+.pkp_footer_content a {
+    color: #ffffff;
+    /* White text for links in the footer */
+    text-decoration: underline;
+    /* Underline for distinction */
+    text-decoration-color: #50717f;
+    /* teal underline */
+}
+
+/* Footer Links Hover Effect */
+.pkp_footer_content a:hover {
+    color: #50717f;
+    /* teal text on hover for contrast */
+    text-decoration-color: #ffffff;
+    /* White underline on hover */
+}
