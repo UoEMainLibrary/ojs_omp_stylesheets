@@ -11,7 +11,7 @@
 }
 
 /* Header Image Size */
-.pkp_page_index .pkp_site_name .is_img img {
+.has_site_logo .pkp_site_name .is_img img {
     max-height: 200px;
 }
 
