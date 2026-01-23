@@ -1,0 +1,113 @@
+/*
+# @name: ojs_ijelt.css
+# @license: The MIT License <https://opensource.org/licenses/MIT>
+# @purpose: custom CSS for a PKP site
+# @website: https://ijelt.dundee.ac.uk/
+# @application: OJS
+# @level (site or journal): journal
+# @acknowledgements:
+*/
+
+@charset "UTF-8";
+
+/* Fix sticky out menu */
+.pkp_navigation_primary>li:first-child a {
+    margin-left: 0;
+}
+
+/* Fix sticky out logged in box */
+.pkp_navigation_user.pkp_navigation_user {
+    left: -10px;
+}
+
+
+/* Header Image Size - Responsive */
+.pkp_site_name .is_img img {
+    height: clamp(20px, 25vw, 250px);
+    max-width: 100%;
+    height: auto;
+    min-width: none !important;
+}
+
+
+
+
+/* Header Banner Colour */
+.pkp_site_name {
+    background: #ffffff;
+    /* Light grey */
+}
+
+/* Wider Banner Colour */
+.pkp_structure_head {
+    background-color: #e0e0e0;
+    /* Medium grey */
+}
+
+/* Primary Navigation Menu Bar Colour */
+.pkp_navigation_primary_wrapper {
+    background: #ffffff;
+    /* White */
+}
+
+/* Primary Navigation Menu Bar Text And Background Colour */
+.pkp_nav_list a {
+    background-color: #ffffff !important;
+    /* White */
+    color: #333333 !important;
+    /* Dark grey */
+}
+
+/* Search Button Text and Background Colour */
+.pkp_navigation_search_wrapper a {
+    background-color: #f7f7f7 !important;
+    /* Light grey */
+    color: #333333 !important;
+    /* Dark grey */
+}
+
+/* Make A Submission Sidebar Block Button Text and Background Colour */
+.block_make_submission_link {
+    background-color: #f0f0f0 !important;
+    /* Very light grey */
+    color: #333333 !important;
+    /* Dark grey */
+}
+
+/* Galley Button Text and Background Colour */
+.obj_galley_link {
+    border: #e0e0e0;
+    /* Medium grey */
+    background: #ffffff;
+    /* White */
+    color: #333333 !important;
+    /* Dark grey */
+}
+
+/* Galley Button Hover Text and Background Colour */
+.obj_galley_link:hover, .obj_galley_link:focus {
+    color: #ffffff !important;
+    /* White */
+    background: #333333 !important;
+    /* Dark grey */
+}
+
+/* Footer Background and Text Colour */
+.pkp_footer_content {
+    background: #e0e0e0;
+    /* Medium grey */
+    color: #4d4d4d;
+    /* Grey */
+}
+
+/* Wider Footer Background Colour */
+.pkp_structure_footer_wrapper {
+    background: #f7f7f7;
+    /* Light grey */
+}
+
+/* Hyperlink Text Colour */
+a {
+    color: #4d4d4d;
+    /* Grey */
+}
