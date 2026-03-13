@@ -9,7 +9,7 @@
 */
 
 /* eahil */
-
+#706993
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
@@ -74,7 +74,7 @@ body {
 }
 
 .pkp_navigation_user>li>a, .pkp_navigation_user>li.in_focus>a, .pkp_navigation_user>li>a:hover, .pkp_navigation_user>li>a:focus {
-    color: rgba(255, 255, 255, 0.84);
+    color: #331E38;
 }
 
 label {
@@ -88,7 +88,7 @@ label {
 }
 
 #navigationPrimary a:hover, #navigationPrimary a:focus {
-    color: #331E38 !important;
+    color: #fff !important;
 }
 
 
@@ -98,8 +98,8 @@ label {
 }
 
 o .block_make_submission_link {
-    background: #331E38 none repeat scroll 0 0;
-    color: #fff !important;
+    background: #706993 none repeat scroll 0 0;
+    color: #000 !important;
 }
 
 .block_make_submission_link:hover {
@@ -109,14 +109,14 @@ o .block_make_submission_link {
 
 
 li .obj_galley_link {
-    background: #331E38 repeat scroll 0 0;
-    color: #fff;
+    background: #706993 repeat scroll 0 0;
+    color: #000;
 
 }
 
 li .obj_galley_link:hover {
-    background: #706993 repeat scroll 0 0;
-    color: #000;
+    background: #331E38 repeat scroll 0 0;
+    color: #fff;
 
 }
 
@@ -359,34 +359,40 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-default, .pkp_block.block_make_submission a {
+    color: #000;
+    background-color: #706993;
+    border-color: #706993
+}
+
+.btn-default, .pkp_block.block_make_submission a:hover {
     color: #fff;
     background-color: #331E38;
     border-color: #331E38
 }
 
 .btn-default:focus, .btn-default.focus {
-    color: #fff;
-    background-color: #331E38;
-    border-color: #331E38
+    color: #000;
+    background-color: #706993;
+    border-color: #706993
 }
 
 .btn-default:hover {
-    color: #000;
-    background-color: #706993;
-    border-color: #706993
-}
-
-.btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
     color: #fff;
     background-color: #331E38;
-    background-image: none;
     border-color: #331E38
 }
 
-.btn-default:active:hover, .btn-default.active:hover, .open>.dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open>.dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open>.dropdown-toggle.btn-default.focus {
+.btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
     color: #000;
     background-color: #706993;
+    background-image: none;
     border-color: #706993
+}
+
+.btn-default:active:hover, .btn-default.active:hover, .open>.dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open>.dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open>.dropdown-toggle.btn-default.focus {
+    color: #fff;
+    background-color: #331E38;
+    border-color: #331E38
 }
 
 .btn-default.disabled:hover, .btn-default[disabled]:hover, fieldset[disabled] .btn-default:hover, .btn-default.disabled:focus, .btn-default[disabled]:focus, fieldset[disabled] .btn-default:focus, .btn-default.disabled.focus, .btn-default[disabled].focus, fieldset[disabled] .btn-default.focus {
@@ -1046,7 +1052,7 @@ tbody.collapse.in {
 /* added by Simon Bowie on 2026-02-04 */
 .page_submissions .alert.alert-info {
     background-color: #331E38;
-    border-color: #706993;
+    border-color: #331E38;
 }
 
 a {
@@ -1067,13 +1073,56 @@ footer img.img-responsive {
 }
 
 footer a:hover, a:focus, a:active{
-    color:darkgray;
+    color:#fff;
 }
 
 .navbar-default .nav>li>a, .header_view .nav>li>a {
     color:#fff;
 }
 
+li .obj_galley_link {
+    background: #706993 repeat scroll 0 0;
+    color: #000;
+}
+
+li .obj_galley_link:hover {
+    background: #331E38 repeat scroll 0 0;
+    color: #fff;
+}
+
+/* added by Simon Bowie on 2026-03-13 */
+/* SEARCH BUTTON */
+.navbar-left button.btn.btn-default {
+    background-color: #706993;
+    color: #000;
+}
+
+/* NAVBAR LINKS */
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus, .header_view .navbar-nav>.open>a, .header_view .navbar-nav>.open>a:hover, .header_view .navbar-nav>.open>a:focus {
+    color:#fff;
+    background-color: transparent;
+}
+
 .navbar-default .nav>li>a:hover, .navbar-default .nav>li>a:focus, .navbar-default .nav>li>a:active, .header_view .nav>li>a:hover, .header_view .nav>li>a:focus, .header_view .nav>li>a:active {
-    color:darkgray;
+    color:#fff;
+    background-color: transparent;
+}
+
+/* GALLEY LINKS BUTTONS */
+a.galley-link.btn.btn-primary {
+    color: #000;
+    background-color: #706993;
+    border-color: #706993;
+}
+
+a.galley-link.btn.btn-primary:focus, a.galley-link.btn.btn-primary.focus {
+    color: #000;
+    background-color: #706993;
+    border-color: #706993;
+}
+
+a.galley-link.btn.btn-primary:hover {
+    color: #fff;
+    background-color: #331E38;
+    border-color: #331E38;
 }
