@@ -46,3 +46,16 @@
         padding-top: 1.5rem;
     }
 }
+
+.orcid_icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.orcid {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
