@@ -1,0 +1,122 @@
+/*
+# @name: ojs_eup_ccs.css
+# @license: The MIT License <https://opensource.org/licenses/MIT>
+# @purpose: custom CSS for a PKP site
+# @website: https://journals.euppublishing.com/ccs
+# @application: OJS
+# @level (site or journal): journal
+# @acknowledgements:
+*/
+
+@charset "UTF-8";
+
+/* Fix sticky out menu */
+.pkp_navigation_primary>li:first-child a {
+    margin-left: 0;
+}
+
+/* Fix sticky out logged in box */
+.pkp_navigation_user.pkp_navigation_user {
+    left: -10px;
+}
+
+/* Header Image Size */
+.pkp_site_name .is_img img {
+    max-height: 200px;
+}
+
+/* Header Image Size, Mobile Devices and Small Screens */
+@media only screen and (max-width: 768px) {
+
+    /* Adjusts for screens smaller than 768px, typical mobile breakpoint */
+    .pkp_site_name .is_img img {
+        max-height: 25px;
+        /* Smaller height for mobile devices */
+    }
+}
+
+
+
+/* Header Banner Colour */
+.pkp_site_name {
+    background: #c71f30;
+}
+
+/* Wider Banner Colour */
+.pkp_structure_head {
+    background-color: #c71f30;
+}
+
+/* Primary Navigation Menu Bar Colour */
+.pkp_navigation_primary_wrapper {
+    background: #f6e5de;
+}
+
+/* Primary Navigation Menu Bar Text And Background Colour */
+.pkp_nav_list a {
+    background-color: #f6e5de !important;
+    color: #c71f30 !important;
+
+}
+
+/* Search Button Text and Background Colour */
+.pkp_navigation_search_wrapper a {
+    background-color: #f6e5de !important;
+    color: #c71f30 !important;
+
+}
+
+/* Make A Submission Sidebar Block Button Text and Background Colour */
+.block_make_submission_link {
+    background-color: #c71f30 !important;
+    color: #f6e5de !important;
+
+}
+
+/* Galley Button Text and Background Colour */
+.obj_galley_link {
+    border: #c71f30;
+    background: #c71f30;
+    color: #f6e5de !important;
+}
+
+/* Galley Button Hover Text and Background Colour */
+.obj_galley_link:hover, .obj_galley_link:focus {
+    color: #cb0003 !important;
+    background: #cac70f !important;
+}
+
+/* Footer Background and Text Colour */
+.pkp_footer_content {
+    background: #fcfcfc;
+    color: #34caa4;
+}
+
+/* Wider Footer Background Colour */
+.pkp_structure_footer_wrapper {
+    background: #fcfcfc;
+}
+
+/* Hyperlink Text Colour */
+a {
+    color: #276bd8;
+}
+
+
+/* Footer Links */
+.pkp_footer_content a {
+    color: #ffffff;
+    /* white text for links in the footer */
+    text-decoration: underline;
+    /* Underline for distinction */
+    text-decoration-color: #8bbec7;
+    /* Light pastel teal underline */
+}
+
+/* Footer Links Hover Effect */
+.pkp_footer_content a:hover {
+    color: #ffffff;
+    /* white on hover for contrast */
+    text-decoration-color: #8bbec7;
+    /* Deep teal underline on hover */
+}
