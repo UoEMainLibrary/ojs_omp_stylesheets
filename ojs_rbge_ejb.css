@@ -1,0 +1,68 @@
+/*
+# @name: ojs_rbge_ejb.css
+# @license: The MIT License <https://opensource.org/licenses/MIT>
+# @purpose: custom CSS for a PKP site
+# @website: https://journals.rbge.org.uk/ejb/
+# @application: OJS
+# @level (site or journal): journal
+# @acknowledgements:
+*/
+
+.pkp_brand_footer {
+  display: none;
+}
+
+.pkp_site_name .is_img img {
+    max-height: 140px;
+}
+
+
+.pkp_site_nav_menu {
+  background-color: #366637;
+}
+
+#navigationPrimary li a {
+    color: white;
+    font-weight: bold;
+    
+}
+
+/*.show ul>li>a {
+    color: #366637 !important;
+}*/
+
+ul.dropdown-menu {
+    background-color: #366637;
+}
+  
+.pkp_navigation_search_wrapper a {
+    color: white;
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 1200px) {
+    .pkp_site_name .is_img img {
+        max-height: 80px;
+        /* Slightly smaller on smaller desktops */
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .pkp_site_name .is_img img {
+        max-height: 35px;
+        /* Adjust for tablets and smaller desktops */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .pkp_site_name .is_img img {
+        max-height: 30px;
+        /* Smaller height for very small devices */
+    }
+}
+
+/* Fix sticky out menu */
+.pkp_navigation_primary>li:first-child a {
+    margin-left: 0;
+}
